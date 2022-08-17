@@ -1,0 +1,9 @@
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  color: gray;
+}
+.logo-style {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.193;
+}

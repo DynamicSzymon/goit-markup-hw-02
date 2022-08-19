@@ -16,7 +16,8 @@
   --backgroundbackdrop: rgba(000, 000, 000, 0.2);
 }
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: gray;
 }
 .blue-text:hover,

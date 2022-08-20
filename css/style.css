@@ -135,10 +135,15 @@ body {
   color: var(--grey);
   font-size: 14px;
   line-height: 1.72;
+  width: 270px;
+  height: 75px;
 }
 .speciality-list {
   list-style: none;
   display: flex;
+  width: 1170px;
+  align-items: center;
+  justify-content: center;
 }
 /* service */
 .service-header {

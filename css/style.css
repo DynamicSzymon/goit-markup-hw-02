@@ -104,25 +104,25 @@ body {
   width: 1170px;
 }
 .projects-title {
-  color: #212121;
+  color: var(--notblack);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
 }
 .projects-subtitle {
-  color: #757575;
+  color: var(--grey);
   font-size: 16px;
   line-height: 1.875;
 }
 /* speciality */
 .speciality-header {
-  color: #212121;
+  color: var(--notblack);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.143;
 }
 .speciality-text {
-  color: #757575;
+  color: var(--grey);
   font-size: 14px;
   line-height: 1.72;
 }
@@ -132,7 +132,7 @@ body {
 }
 /* service */
 .service-header {
-  color: #212121;
+  color: var(--notblack);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.172;
@@ -143,7 +143,7 @@ body {
 }
 /* team */
 .team-header {
-  color: #212121;
+  color: var(--notblack);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.166;
@@ -159,16 +159,16 @@ body {
   line-height: 1.19;
 }
 .team-card-profession {
-  color: #757575;
+  color: var(--grey);
   font-size: 16px;
   line-height: 1.19;
 }
 /* footer */
 .footer-box {
-  background-color: #2f303a;
+  background-color: var(--darkgrey);
 }
 .footer-logo {
-  color: #fff;
+  color: var(--white);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.193;
@@ -177,12 +177,12 @@ body {
   list-style: none;
 }
 .address-text {
-  color: #ffffff;
+  color: var(--white);
   font-size: 14px;
   line-height: 1.71;
 }
 .address-link {
-  color: #ffffff99;
+  color: var(--footerlinks);
   font-size: 14px;
   line-height: 1.71;
 }

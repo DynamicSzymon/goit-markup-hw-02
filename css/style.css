@@ -18,27 +18,28 @@
 body {
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
-  color: gray;
+  color: var(grey);
+  font-size: 14px;
 }
 .blue-text:hover,
 .blue-text:focus {
-  color: #2196f3;
+  color: var(--blue);
 }
 /* header */
 .logo-style {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.193;
-  color: #000;
+  color: var(--black);
 }
 .blue-text {
-  color: #2196f3;
+  color: var(--blue);
 }
 .link-no-underline {
   text-decoration: none;
 }
 .link-style {
-  color: #000;
+  color: var(--black);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.172;
@@ -49,30 +50,32 @@ body {
 .contact-link-style {
   font-weight: 500;
   font-size: 14px;
-  color: #757575;
+  color: var(--grey);
 }
 /* top-section */
 .top-section-text {
-  color: #fff;
+  color: var(--white);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.365;
 }
 .top-section {
-  background-color: #2f303a;
+  background-color: var(--darkgrey);
 }
 .top-section-btn {
-  color: #fff;
+  color: var(--white);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  background-color: #2196f3;
+  background-color: var(--blue);
   border-style: none;
   cursor: pointer;
 }
 /* top section portfolio */
 .top-section-list {
   list-style: none;
+  display: flex;
+  gap: 30px;
 }
 .btn-portfolio {
   color: #212121;
@@ -83,12 +86,22 @@ body {
   border-style: none;
 }
 .blue-background:hover {
-  background-color: #2196f3;
-  color: #fff;
+  background-color: var(--blue);
+  color: var(--white);
+
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+
+  border-radius: 4px;
 }
 /* portfolio projects */
 .projects-list {
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin-bottom: 94px;
+  width: 1170px;
 }
 .projects-title {
   color: #212121;
@@ -115,6 +128,7 @@ body {
 }
 .speciality-list {
   list-style: none;
+  display: flex;
 }
 /* service */
 .service-header {
@@ -125,6 +139,7 @@ body {
 }
 .service-list {
   list-style: none;
+  display: flex;
 }
 /* team */
 .team-header {
@@ -135,6 +150,7 @@ body {
 }
 .team-list {
   list-style: none;
+  display: flex;
 }
 .team-card-name {
   color: #212121;
